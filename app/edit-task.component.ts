@@ -11,6 +11,10 @@ import {  Task  } from './task.model';
       <input [(ngModel)]="childSelectedTask.description">
     </div>
     <div>
+      <label>Enter Task priority</label>
+      <input [(ngModel)]="childSelectedTask.priority">
+    </div>
+    <div>
       <label>ID</label>
       <input [(ngModel)]="childSelectedTask.id">
       <button (click)="doneClicked()">Done</button>
